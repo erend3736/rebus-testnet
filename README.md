@@ -47,6 +47,9 @@ rebusd keys add cüzdanismi
 
 ### [Discord linki](https://discord.gg/uGdygCqr)
 
+    Sync durumuna bakmak için:
+curl -s localhost:21657/status | jq .result.sync_info
+
 
 ## validator oluşturalım. 
 
